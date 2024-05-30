@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login: videobelajar</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,6 +17,32 @@
         </nav>
     </header>
     <main>
+        <div class="container">
+            <form class="login" action="" method="post"> 
+                <div class="heading">
+                    <h1 class="poppins-semibold">Masuk ke Akun</h1>
+                    <h4 class="dm-sans-reguler dark">Yuk, lanjutin belajarmu di videobelajar</h4>
+                </div>
+                
+                <label class ="dm-sans-reguler gray" for="email">E-mail</label> <br>
+                <input type="email" name="email" id="email" required> <br>
+                
+                <label class ="dm-sans-reguler gray" for="password">Kata Sandi</label> <br>
+                <input type="password" name="password" id="password" required> <br>
+                
+                <a class ="dm-sans-reguler gray right" href="#">Lupa Password?</a><br>
+                
+                    <input class="green-white" type="submit" value="Masuk">
+            
+                    <input class="gray-green" type="submit" value="Daftar">
+                
+                <p class ="dm-sans-reguler gray center">atau</p>
+                
+                <div class="button-3">
+                    <input type="submit" value="Masuk dengan Google">
+                </div>
+            </form>
+        </div>
 
     </main>
 </body>
