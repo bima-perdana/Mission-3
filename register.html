@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register: videobelajar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo-videobelajar.png" alt="logo-videobelajar">
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <form class="form register" action="" method="post"> 
+                <div class="heading">
+                    <h1 class="poppins-semibold">Pendaftaran Akun</h1>
+                    <h4 class="dm-sans-reguler dark">Yuk, daftarkan akunmu sekarang juga!</h4>                         
+                </div>
+                <label for="name">Nama Lengkap</label> <br>
+                <input type="text" name="name" id="name" required> <br>
+                
+                <label for="email">E-mail</label> <br>
+                <input type="email" name="email" id="email" required> <br>
+                
+                <label for="telepon">Telepon</label> <br>
+                <input type="tel" name="telepon" id="telepon" pattern="(62)[0-9]{5,20}" required> <br>
+                
+                <label for="password">Kata Sandi</label> <br>
+                <input type="password" name="password" id="password" required> <br>
+                
+                <label for="re_password">Konfirmasi Kata Sandi</label> <br>
+                <input type="password" name="re_password" id="re_password" required>
+                
+                <a class="dm-sans-reguler gray right" href="#">Lupa Password?</a><br>
+                
+                <input class="green-white" type="submit" value="Daftar">
+                <input class="gray-green"  type="submit" value="Masuk">
+    
+                <p class="dm-sans-reguler gray center">atau</p>
+                
+                <input type="submit" value="Daftar dengan Google">
+                
+            </form>
+        </div>
+    </main>
+</body>
+</html>
