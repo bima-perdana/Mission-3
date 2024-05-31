@@ -9,7 +9,6 @@ header nav{
     border: 0px 0px 1px 0px;
     padding: 12px 120px 12px 120px;
 }
-
 .nav-items{
     display: flex;
     align-items: center;
@@ -94,6 +93,10 @@ img {
     background-color: black;
 }
 
+a{
+ text-decoration: none;
+}
+
 .menu-kategori ul{
     padding: 12px 36px 12px 0px;
 }
@@ -101,6 +104,10 @@ img {
 .menu-kategori ul li{
     display: inline;
     padding: 12px 36px 12px 0px;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .form{
@@ -169,6 +176,14 @@ img {
     font-style: normal;  
  }
 
+ .dm-sans-bold {
+    font-family: "DM Sans", sans-serif;
+    line-height: 22.4px;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;  
+ }
+
 .gray {
     color: #4A505C;
 }
@@ -207,6 +222,35 @@ input[type="submit"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.input-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-email input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+}
+
+.input-email button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFBD3A;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.input-email button:hover {
+    background-color: #0056b3;
 }
 
 .green-white{
@@ -260,6 +304,10 @@ input[type="submit"] {
 
 .footer-items{
     display: flex;
+}
+
+.item-1{
+    width: 352px;
 }
 
 .columns{
