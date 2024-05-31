@@ -15,6 +15,10 @@ header nav{
     align-items: center;
 }
 
+.nav-category{
+    margin-right: 10px;
+}
+
 .container{
     padding: 64px 120px 64px 120px;
     background-color: #F9FAFC;
@@ -29,7 +33,7 @@ img {
 }
 
 .card{
-    max-width: 384px;
+    max-width: 100%;
     max-height: 426px;
     border-radius: 10px;
     margin: 10px;
@@ -83,8 +87,7 @@ img {
 
 
 .banner{
-    width: 1200px;
-    max-width: 100%;
+    max-width: 1200px;
     height: auto;
     border-radius: 10px;
     padding: 82px 140px 64px 140px;
