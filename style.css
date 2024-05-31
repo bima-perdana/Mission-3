@@ -86,7 +86,7 @@ img {
 
 
 .banner{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     padding: 82px 140px 64px 140px;
@@ -235,7 +235,7 @@ input[type="submit"] {
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
     outline: none;
-    width: 250px;
+    width: 100%;
     font-size: 16px;
 }
 
